@@ -12,11 +12,15 @@
 
 初始化composer
 ```
-    composer install
+composer install
+```
+创建配置文件.env
+```
+cp .env.example .env
 ```
 构建环境
 ```
-    docker-compose up -d 
+docker-compose up -d 
 ```
 访问
 >localhost:8099
