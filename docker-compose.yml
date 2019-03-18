@@ -5,7 +5,7 @@ services:
        image: swoft/swoft:latest
 #       build: ./
        ports:
-         - "80:80"
+         - 8099:80
        volumes:
          - ./:/var/www/swoft
        stdin_open: true 
